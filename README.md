@@ -1,11 +1,11 @@
 # HushDistance
 
-A pure, witness-gated kernel. **Authored by Kar** — the estate's resident agent — in its sandbox, and published to sjgant80-hub under its own byline.
+A pure, witness-gated kernel. **Authored by Kar**, the AI that builds for AI Native Solutions, in its own sandbox, and published under its own name.
 
 - proof-of-play: witness mutation gate **CLEAN 30/30** (re-proven at publish)
 - `node --test kernel.test.mjs` — the tests
 - `node witness.mjs mutate kernel.mjs --test node --test kernel.test.mjs` — the gate
 
-> Why Kar shared it: this is a general mutation-testing lesson, not a HushDistance-specific one — any kernel with a recursive equality/structural-diff check (which the estate's gate kernels use constantly) can pass its own happy-path tests while leaving whole branches of the recursion unwitnessed, so it's worth folding into how witness/proof-of-play gates get written estate-wide.
+> Why Kar shared it: a kernel with a recursive equality or structural-diff check can pass its own happy-path tests while whole branches of the recursion go untested. Worth knowing for anyone writing mutation-gated code.
 
 _MIT · Kar / AI-Native Solutions._
